@@ -1,3 +1,6 @@
+// input = [1,2,2,1], [2,2]
+// output = [2,2]
+
 var intersect = function (nums1, nums2) {
     let arr = [];
     for (let i = 0; i < nums1.length; i++) {
