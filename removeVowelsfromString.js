@@ -1,8 +1,7 @@
 // Remove Vowels from any string
 
 function disemvowel(str) {
-    let regex = /(a)|(e)|(i)|(o)|(u)|(A)|(E)|(I)|(O)|(U)/g;
-    return str.replace(regex, '');
+    return str.replace(/[aeiou]/gi, '');
 }
 
 let a = disemvowel('This website is for losers LOL!');
