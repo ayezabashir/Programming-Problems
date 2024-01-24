@@ -1,6 +1,8 @@
 // Remove Vowels from any string
 
 function disemvowel(str) {
+    // g stands for global
+    // i stands for case-insensitive
     return str.replace(/[aeiou]/gi, '');
 }
 

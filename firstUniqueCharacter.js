@@ -5,10 +5,8 @@ var firstUniqChar = function (s) {
             return i;
         }
     }
-
     return -1; // No unique character found
 };
-
 
 console.log(firstUniqChar("leetcode"));
 console.log(firstUniqChar("loveleetcode"));

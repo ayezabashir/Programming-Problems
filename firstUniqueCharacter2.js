@@ -1,4 +1,5 @@
 var firstUniqChar = function (s) {
+    //charCounts will be used to store the frequency of each character in the string
     let charCounts = {};
 
     // Count the frequency of each character

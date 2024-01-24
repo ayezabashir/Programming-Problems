@@ -4,6 +4,10 @@ var isPalindrome = function (s) {
     return s === Array.from(s).reverse().join('');
 };
 
+// By using Array.from(s).reverse().join(''), 
+// the reversed ARRAY is joined back into a STRING before 
+// comparing it with the original string s.
+
 let a = "A man, a plan, a canal: Panama";
 let b = "race a car";
 let c = " "
